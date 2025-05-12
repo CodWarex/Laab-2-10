@@ -1,1 +1,8 @@
-Test
+import random
+
+def rastgele_toplam(n):           # Fonksiyon başlıyor
+    toplam = 0.0
+    for _ in range(n):
+        sayi = random.random()
+        toplam += sayi
+    return toplam  
