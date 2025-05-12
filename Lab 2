@@ -1,10 +1,8 @@
-# lab2 tapsırık 1
+# tapşırık 1 lab3
 
-import random
-
-def rastgele_toplam(n):           # Fonksiyon başlıyor
-    toplam = 0.0
-    for _ in range(n):
-        sayi = random.random()
-        toplam += sayi
-    return toplam  
+def matris_toplam(A):
+    toplam = 0
+    for i in range(len(A)):
+        for j in range(len(A[i])):
+            toplam += A[i][j]
+            return toplam 
