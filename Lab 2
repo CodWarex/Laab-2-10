@@ -1,3 +1,5 @@
+# lab2 tapsırık 1
+
 import random
 
 def rastgele_toplam(n):           # Fonksiyon başlıyor
